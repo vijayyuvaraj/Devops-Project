@@ -1,6 +1,6 @@
 provider "aws" {
   region = var.region
-  shared_credentials_files = ["/home/dungpham/.aws/credentials"]
+  shared_credentials_files = ["/home/ec2-user/.aws/credentials"]
 }
 
 locals {
